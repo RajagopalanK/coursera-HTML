@@ -14,7 +14,7 @@
 	  margin: 0;
 	  padding: 0;
 	  font-family: Helvetica;
-	  font-size: 100%;
+	  
 	}
 
 	div{
@@ -28,7 +28,7 @@
 	  	font-style: italic;
 	  	text-align: center;
 	  	font-weight: bold;
-	  	font-size: 1.75em;
+	  	font-size: 1.75rem;
 	  	color: black;
 
 
@@ -46,7 +46,7 @@
 	p {
 	  padding-top: 40px;
 	  width: 90%;
-	  height: 350px;
+	  height: 150px;
 	  margin-right: auto;
 	  margin-left: auto;
 	  margin-color: none;
@@ -54,13 +54,13 @@
 	  overflow: hidden;
 	  color: white;
 	  padding-left: 0px;
+	  font-size: 1rem;
 	}
 
 	.div1{
 		background-color: #3498DB;
 		border: 1px solid black;
-		position: relative;
-		border-radius:8px;
+		position: relative;		
 		padding: 0px;
 		width:100%;
 	}
@@ -68,7 +68,6 @@
 		background-color: #F4D03F;
 		border: 1px solid black;
 		position: relative;
-		border-radius:8px;
 		padding: 0px;
 		width:100%;
 	}
@@ -76,7 +75,6 @@
 		background-color: #48C9B0;
 		border: 1px solid black;
 		position: relative;
-		border-radius:8px;
 		padding: 0px;
 		width:100%;
 	}
@@ -176,46 +174,9 @@
 	}
 
 	
-	@media (max-width: 767px)  {
-	  .col-s-1, .col-s-2, .col-s-3, .col-s-4, .col-s-5, .col-s-6, .col-s-7, .col-s-8, .col-s-9, .col-s-10, .col-s-11, .col-s-12 {
-		float: left;
-		margin-top: 20px;
-		/*border: 1px solid green;*/
-	  }
-	  .col-s-1 {
-		width: 8.33%;
-	  }
-	  .col-s-2 {
-		width: 16.66%;
-	  }
-	  .col-s-3 {
-		width: 25%;
-	  }
-	  .col-s-4 {
-		width: 33.33%;
-	  }
-	  .col-s-5 {
-		width: 41.66%;
-	  }
-	  .col-s-6 {
-		width: 50%;
-	  }
-	  .col-s-7 {
-		width: 58.33%;
-	  }
-	  .col-s-8 {
-		width: 66.66%;
-	  }
-	  .col-s-9 {
-		width: 74.99%;
-	  }
-	  .col-s-10 {
-		width: 83.33%;
-	  }
-	  .col-s-11 {
-		width: 91.66%;
-	  }
+	@media (max-device-width: 767px)  {
 	  .col-s-12 {
+		float: left;
 		width: 100%;
 	  }
 	}
@@ -229,7 +190,7 @@
 	 position: absolute;
 	 top: 0px;
 	 right: 0px;
-	 font-size: 1.25em;
+	 font-size: 1.25rem;
 	 }
 #sec2{
 	background-color: #BA4A00;
@@ -240,7 +201,7 @@
 	 position: absolute;
 	 top: 0px;
 	 right: 0px;
-	 font-size: 1.25em;
+	 font-size: 1.25rem;
  }
 #sec3{
 	background-color: #17202A;
@@ -251,5 +212,5 @@
 	position: absolute;
 	top: 0px;
 	right: 0px;
-	font-size: 1.25em;
+	font-size: 1.25rem;
  }
